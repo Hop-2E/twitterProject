@@ -1,14 +1,43 @@
+
 .twitterLogoSidebar{
     width: 35px;
     height: 35px;
     display: block;
 }
 .sidebarContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
     background-color: black;
     height: 100vh;
-    width: 280px;
+    width: 450px;
+    border-right: 2px solid gray;
 }
-.sidebarHomeIcon{
+.allCategoryContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sidebarCategoryContainer{
+ 
+}
+.sidebarCategory{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    gap: 20px;
+    border-radius: 20px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.sidebarCategory:hover{
+    background-color: rgb(24, 24, 24);
+}
+.sidebarIcon{
     width: 40px;
     height: 40px;
     color: white;
@@ -18,4 +47,21 @@
     font-weight: bold;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sidebarbtn{
+    background-color: rgb(29, 155, 240);
+    transition: 1s ease;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+}
+.sidebarbtn:hover{
+    background-color: rgb(66, 138, 210);
+}
+.sidebarProfileContainer{
+    height: 50px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 20px;
 }
