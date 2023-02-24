@@ -3,7 +3,9 @@
   padding: 0px;
 }
 .homeContainer{
+  display: flex;
   background-color: white;
+  justify-content: center;
   height: 100vh;
   width: 100vw;
 }

@@ -5,6 +5,7 @@ import Messages from "./pages/messages";
 import Notification from "./pages/notification";
 import Profile from "./pages/profile";
 import Home from "./pages/home";
+
 function App() {
   return (
     <BrowserRouter>
