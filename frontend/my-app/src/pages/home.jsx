@@ -7,7 +7,7 @@ function home() {
     <>
       <div className="homeContainer">
         {/* <SideBar /> */}
-        <Header />
+        {/* <Header /> */}
       </div>
     </>
   );
