@@ -1,0 +1,111 @@
+.newMessageCategoryTexts{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.newMessageContainer{
+display: flex;
+justify-content: center;
+background-color: black;
+width: 600px;
+height: 100vh;
+}
+.newMessageMain{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100vh;
+gap: 15px;
+}
+.firstText{
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.secondText{
+    width: 500px;
+    height: 38px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(114, 118, 122);
+}
+.newMessageBtn{
+    background-color: rgb(29, 155, 240);
+    transition: 1s ease;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.newMessageBtn:hover{
+    background-color: rgb(66, 138, 210);
+}
+
+
+
+.popupContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(93, 86, 86, 0.2);
+    height: 100vh;
+    width: 100%;
+}
+.mainBox{
+    height: 653px;
+    width: 597px;   
+    background-color: black ;
+    border-radius: 10px;
+
+}
+.mainBoxHeader{
+display: flex;
+align-items: center;
+height: 53px;
+width: 600px;
+}
+.popupText{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    height: 28px;
+    width: 435px;
+    margin-right: 15px;
+}
+.popupClose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.popupClose:hover{
+    background-color: rgb(114, 118, 122);
+}
+.popupBtn{
+    width: 65px;
+    height: 32px;
+    border-radius: 25px;
+    border: none;
+}
+.popupSearchContainer{
+    display: flex;
+}
+.popupSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 41px;
+}
+.poputInput{
+    width: 556px;
+    height: 42px;
+    border: none;
+    background-color: black;
+}

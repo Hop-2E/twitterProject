@@ -5,6 +5,8 @@ import SideBar from "../components/sidebar";
 import WriteMessage from "../components/WriteMessage";
 import Search from "../components/Search";
 
+import NewMessage from "../components/NewMessage";
+import Popup from "../components/Popup";
 function home() {
   return (
     <>
@@ -14,6 +16,10 @@ function home() {
         {/* <WriteMessage /> */}
         {/* <Post /> */}
         <Search />
+        {/* <SideBar />
+        <NewMessage /> */}
+        {/* <Popup /> */}
+        <Popup />
       </div>
     </>
   );
