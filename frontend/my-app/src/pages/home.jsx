@@ -19,6 +19,7 @@ function home() {
         {/* <SideBar />
         <NewMessage /> */}
         {/* <Popup /> */}
+        <Popup />
       </div>
     </>
   );
