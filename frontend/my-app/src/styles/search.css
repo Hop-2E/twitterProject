@@ -1,0 +1,168 @@
+.whiteText{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.greyText{
+    font-size: 14px;
+    color: rgb(71, 74, 78);
+    text-decoration: none;
+}
+.blueText{
+    font-weight: bold;
+    color: rgb(74, 153, 232);
+}
+
+.boxTitle{
+    font-size: 24px;
+    color:white;
+}
+.searchContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 760px;
+    width: 350px;
+background-color: black;
+
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+    width: 350;
+    height: 50px;
+    background-color: rgb(33, 35, 39);
+    border-radius: 25px;
+}
+.mainInput{
+height: 42px;
+width: 305px;
+border-radius: 25px;
+border: none;
+padding-left:20px ;
+background-color: rgb(33, 35, 39);
+}
+.searchIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 42px;
+    border-radius: 50%;
+}
+.firstBoxContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 350px;
+    height: 183px;
+    background-color: rgb(33, 35, 39);
+    border-radius: 15px;
+
+}
+.mainBoxHeader{
+    display: flex;
+    align-items: center;
+    width: 348px;
+    height: 48px;
+    margin-left:10px ;
+}
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 82px;
+    width: 340px;
+    margin-left: 10px;
+    transition: 1s ease;
+}
+.mainBox:hover{
+background-color: rgb(45, 47, 53);
+}
+.firstText{
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    height: 16px;
+    margin-right: 110px;
+}
+.secondText{
+    height: 20px;
+    width: 340px;
+}
+.mainBoxfooter{
+    display: flex;
+    align-items:center;
+    justify-content: flex-star;
+    height: 52px ;
+    width: 348px;
+    transition: 1s ease;
+}
+.mainBoxfooter:hover{
+    background-color: rgb(29, 31, 35);
+}
+.secondBoxContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: rgb(33, 35, 39);
+    height: 350px;
+    width: 350px;  
+    border-radius: 15px;
+}
+.secondMainBox{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.searchFooter{
+    display: flex; 
+    height: 60px;
+    width: 250px;
+    background-color: black ;
+}
+
+
+
+
+
+
+
+
+
+
+.followBoxContainer{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    width: 348px;
+    transition: 1s ease;
+}
+.followBoxContainer:hover{
+    background-color: rgb(29, 31, 35);
+}
+.followBoxImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+
+}
+.nameAndFollow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 256px;
+    height: 42px;
+}
+.followBtn{
+    width: 70px;
+    height: 32px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
