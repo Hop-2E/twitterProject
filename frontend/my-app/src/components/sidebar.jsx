@@ -9,6 +9,7 @@ import { RxBookmark } from "react-icons/rx";
 import { MdListAlt } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { CgMore } from "react-icons/cg";
+import { Link } from "react-router-dom";
 
 function sidebar() {
   return (
@@ -53,10 +54,12 @@ function sidebar() {
             </div>
           </div>
           <div className="sidebarCategoryContainer">
-            <div className="sidebarCategory">
-              <CgProfile className="sidebarIcon" />
-              <span className="sideBarCategoryTexts">Profile</span>
-            </div>
+            <Link className="link" to={"/profile"}>
+              <div className="sidebarCategory">
+                <CgProfile className="sidebarIcon" />
+                <span className="sideBarCategoryTexts">Profile</span>
+              </div>
+            </Link>
           </div>
           <div className="sidebarCategoryContainer">
             <div className="sidebarCategory">

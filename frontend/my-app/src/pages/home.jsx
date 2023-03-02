@@ -1,12 +1,13 @@
 import React from "react";
 import "../App.css";
 import SideBar from "../components/sidebar";
-function home() {
+function home({ children }) {
   return (
     <>
       <div className="homeContainer">
         <SideBar />
       </div>
+      {children}
     </>
   );
 }

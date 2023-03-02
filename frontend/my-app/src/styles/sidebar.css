@@ -13,15 +13,12 @@
     background-color: black;
     height: 100vh;
     width: 450px;
-    border-right: 2px solid gray;
+    border-right: 0.2px solid gray;
 }
 .allCategoryContainer{
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-.sidebarCategoryContainer{
- 
 }
 .sidebarCategory{
     display: flex;
@@ -45,7 +42,7 @@
 .sideBarCategoryTexts{
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .sidebarbtn{
@@ -64,4 +61,7 @@
     width: 200px;
     background-color: yellow;
     border-radius: 20px;
+}
+.link{
+    text-decoration: none;
 }
