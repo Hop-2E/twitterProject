@@ -11,6 +11,7 @@ function home() {
   return (
     <>
       <div className="homeContainer">
+
         <SideBar />
         <WriteMessage />
         {/* <WriteMessage /> */}
