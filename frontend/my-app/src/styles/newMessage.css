@@ -16,7 +16,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 height: 100vh;
-gap: 15px;
+gap: 30px;
 }
 .firstText{
     font-weight: bold;
@@ -52,13 +52,6 @@ gap: 15px;
     background-color: rgba(93, 86, 86, 0.2);
     height: 100vh;
     width: 100%;
-}
-.mainBox{
-    height: 653px;
-    width: 597px;   
-    background-color: black ;
-    border-radius: 10px;
-
 }
 .mainBoxHeader{
 display: flex;

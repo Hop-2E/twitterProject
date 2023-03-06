@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0px;
 }
 .writeMessageCategoryTexts{
@@ -38,7 +38,6 @@
 .messageHeader{
 display: flex;
 justify-content: space-between;
-
 margin: 15px;
 }
 .writeMessageIconContainer{
@@ -51,7 +50,7 @@ margin: 15px;
 .messageMain{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 70px;
     margin: 25px;
     height: 388px;
     width: 320px;

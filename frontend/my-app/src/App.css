@@ -1,15 +1,10 @@
 *{
   margin : 0px;
   padding: 0px;
+
 }
 .homeContainer{
   display: flex;
-  
-  flex-direction: row;
-  
-
-  margin-top: 400px;
-  background-color: white;
   height: 100vh;
   width: 100vw;
 }
