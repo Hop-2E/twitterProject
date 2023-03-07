@@ -8,7 +8,7 @@ import Search from "../components/Search";
 // import Popup from "../components/Popup";
 import Header from "../components/Header";
 import Login from "../components/Login";
-function home() {
+function home({children}) {
   return (
     <>
       <div className="homeContainer">
@@ -21,6 +21,7 @@ function home() {
         {/* <Popup /> */}
         <Login />
       </div>
+      {children}
     </>
   );
 }
