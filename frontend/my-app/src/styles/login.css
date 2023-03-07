@@ -1,68 +1,60 @@
-.loginContainer{
-    display: flex;
-    height: 100vh;
-    width: 100%;
+.leftSideBarText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 18px;
 }
-.loginPost{
-    margin-right: 25px;
+
+
+
+.loginPageContainer{
+   display: flex;
+   background-color: aqua;
+   height: 100%;
+   width: 100%;
 }
-.loginFooter{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 72px;
-    background-color: rgb(73, 153, 233);
-    width: 100%;
-    position: fixed;
-    top: 980px;
-}
-.loginFooterMain{
-    display: flex;
-    justify-content: space-between;
-    width: 990px;
-}
-.firstFooterMain{
+.loginLeftSideBarContainer{
     display: flex;
     flex-direction: column;
-    height: 48px;
-    width: 348px;
-}
-.secondFooterMain{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    height: 48px;
-    width: 150px;
-
-}
-.loginBtnONe{
-    height: 36px;
-    width: 75px;
-    background-color: rgb(73, 153, 233);
-    border: 2px solid white;
-    border-radius: 25px;
-}
-.loginBtnTwo{
-    height: 36px;
-    width: 75px;
-    background-color: white;
-    border: none;
-    border-radius: 25px;
-}
-
-
-
-.sidebarContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; 
-    gap: 10px;
+    width: 25%;
     background-color: black;
-    height: 1000px;
-    width: 450px;
-    border-right: 2px solid gray;
+    height: 100%;
 }
+.leftSidebarCategoryContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+}   
+.twitterLogoLeftSidebar{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.leftSidebarIcon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+.leftSidebarIcon:hover{
+    background-color: black;
+}
+.leftSidebarCategory{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+    border-radius: 25px;
+    width: 150px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.leftSidebarCategory:hover{
+background-color: grey;
+}
+
+
 
 
 
@@ -70,140 +62,67 @@
 
 
 .loginPostContainer{
-    width: 600px;
-    height: 100vh;
-    background-color: black;
+    background-color: yellow;
+    height: 100%;
+    width: 42%;
 }
-.loginSearch{
+.loginPostHeader{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 53px;
-    width: 568px;
-    padding: 0px 16px;
+    background-color: brown;
+    height: 60px;
 }
-.loginInputContainer{
+.loginPostSearchContainer{
     display: flex;
     align-items: center;
+    width: 510px;
+    height: 50px;
     border-radius: 25px;
     background-color: rgb(33, 35, 39);
-    width: 502px;
-    height: 45px;
+    margin-left: 14px;
 }
-.loginInputIcon{
+.loginPostSearchIcon{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 41px;
-    width: 44px;
-}
-.loginInput{
-    height: 35px;
-    width: 450px;   
-    background-color: rgb(33, 35, 39);
-    border: none;
-}
-.loginHeader{
-    display: flex;
-    align-self: center;
     height: 40px;
-    width: 598px;
-    margin-left: 12px;
-
+    width: 40px;
+    margin-right: 10px;
+    padding-left: 10px;
 }
-.loginMainPost{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    padding: 12px 16px;
-}
-.postText1{
-    color: grey;
-    font-weight: bold;
+.loginPostInput::placeholder{
     font-size: 16px;
-}
-.loginPostName{
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
-.loginPostNmbr{
-    color: grey;
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.loginBoxContainer{
-height: 348px;
-width: 350px;   
-background-color: black;
-border: 1px solid grey;
-border-radius: 15px;
-margin-top: 10px;
-}
-.loginBoxHeader{
-    display: flex;
-    align-items: center;
-    padding-left: 12px;
-    width: 340px;
-    height:48px;   
-}
-.loginHeaderText{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    color: white;
-    font-size: 23px;
-}
-.loginBoxFirstText{
-    display: flex;
-    align-items: center;
-    padding-left: 12px;
-    width: 348px;
-    height: 16px;
-}
-.loginFirstText{
-    color: grey;
-}
-.loginBoxMain{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 164px;
-    width: 325px;
-    margin: 16px 10px;
 
 }
-.loginBoxChoose{
+.loginPostInput{
+    border: none;
+    height: 45px;
+    width: 400px;
+    background-color: rgb(33, 35, 39);
+}
+.loginHeaderIcon{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300;
     height: 40px;
-    margin: 0px 0px 12px;
-    padding: 0px 16px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 25px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 1s ease;
 }
-.loginBoxSecondText{
-    height: 32px;
-    width: 348px;
-}
-.loginSecondText{
-    color: grey;
+.loginHeaderIcon:hover{
+    background-color: rgb(33, 35, 39);
 }
 
 
 
 
-
+.loginSecondHeader{
+    display: flex;
+    align-items: center;
+    width: 590px;
+    height: 48px;
+    background-color: green;
+    padding-left:15px ;
+}

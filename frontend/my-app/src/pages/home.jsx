@@ -5,9 +5,10 @@ import SideBar from "../components/sidebar";
 // import WriteMessage from "../components/WriteMessage";
 import Search from "../components/Search";
 // import NewMessage from "../components/NewMessage";
-// import Popup from "../components/Popup";
+import Popup from "../components/Popup";
 import Header from "../components/Header";
 import Login from "../components/Login";
+import FollowBox from "../components/FollowBox";
 function home() {
   return (
     <>
@@ -20,6 +21,7 @@ function home() {
         <NewMessage /> */}
         {/* <Popup /> */}
         <Login />
+        {/* <FollowBox /> */}
       </div>
     </>
   );
