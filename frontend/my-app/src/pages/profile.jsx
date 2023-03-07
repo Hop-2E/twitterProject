@@ -4,11 +4,12 @@ import Sidebar from "../components/sidebar";
 import { BsArrowLeftShort } from "react-icons/bs";
 import Profile from "../assets/profile.png";
 import { BiCalendar } from "react-icons/bi";
+import RightSiderBarProfile from "../components/rightSideBarProfile";
 function profile() {
   return (
     <>
       <div className="profileContainer">
-        <Sidebar />
+        {/* <Sidebar /> */}
         <div className="profileMenu">
           <div className="headerProfile">
             <div className="sectionProfile">
@@ -56,7 +57,7 @@ function profile() {
               <div style={{ display: "flex", marginTop: 10, marginLeft: 19 }}>
                 <BiCalendar
                   className="sectionTweetNumber"
-                  style={{ fontSize: 17, marginRight: 5 }}
+                  style={{ fontSize: 17, marginRight: 3 }}
                 />
                 <p className="sectionTweetNumber">Joined May 2021</p>
               </div>
@@ -64,13 +65,18 @@ function profile() {
                 <p className="sectionTweetNumber" style={{ color: "white" }}>
                   23
                 </p>
-                <p className="sectionTweetNumber" style={{ marginRight: 17 }}>
+                <p
+                  className="sectionTweetNumber"
+                  style={{ marginRight: 17, marginLeft: 5 }}
+                >
                   Following
                 </p>
                 <p className="sectionTweetNumber" style={{ color: "white" }}>
                   0
                 </p>
-                <p className="sectionTweetNumber">Followers</p>
+                <p className="sectionTweetNumber" style={{ marginLeft: 3 }}>
+                  Followers
+                </p>
               </div>
             </div>
             <div className="categoryProfile">
@@ -89,6 +95,7 @@ function profile() {
             </div>
           </div>
         </div>
+        <RightSiderBarProfile />
       </div>
     </>
   );
