@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.profileContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+.profileMenu{
+    width: 550px;
+    height: 100vh;
+    background-color: black;
+}
+.headerProfile{
+    height: 50px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    color: white;
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
+}
+.sectionName{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sectionTweetNumber{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.headerSection{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+    /* position: fixed; */
+}
+.sectionProfile{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    background-color: rgba(21, 21, 21, 0.755);
+    z-index: 99;
+    width: 550px;
+    height: 50px;
+}
+.background{
+    background-color: gray;
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+.profile{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 105px;
+    left: 20px;
+    border: 4px solid black;
+    z-index: 2;
+}
+.secondBackground{
+    height: 280px;
+    width: 100%;
+    position: relative;
+}
+.button{
+    background-color: transparent;
+    color: white;
+    width: 110px;
+    height: 32px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid white;
+}
+.buttonContainer{
+    width: 100%;
+    height: 80px;
+}
+.information{
+    height: 130px;
+    width: 230px;
+}
+.categoryProfile{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.tweetsCategory{
+    height: 100%;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tweetsRepliesCategory{
+    height: 100%;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mediaCategory{
+    height: 100%;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LikesCategory{
+    height: 100%;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tweetsCategory:hover{
+    background-color: rgb(43, 38, 38);
+    transition: 0.5s ease;
+}
+.tweetsRepliesCategory:hover{
+    background-color: rgb(43, 38, 38);
+    transition: 0.5s ease;
+}
+.mediaCategory:hover{
+    background-color: rgb(43, 38, 38);
+    transition: 0.5s ease;
+}
+.LikesCategory:hover{
+    background-color: rgb(43, 38, 38);
+    transition: 0.5s ease;
+}
+.rightBarInput{
+    width: 345px;
+    height: 51px;
+    border:transparent;
+    background-color: rgb(54, 54, 54);
+    border-radius: 40px;
+    margin-top: 3px;
+}
+.rightBarContainer{
+    margin-left: 35px;
+    background-color: black;
+    height: 2500px;
+}
+.rightBarProfilePhotos{
+    width: 350px;
+    height: 170px;
+    background-color: blue;
+    margin-top: 66px;
+    border-radius: 10px;
+}
+.rightBarProfileRecom{
+    width: 350px;
+    height: 330px;
+    background-color: rgb(44, 43, 43);
+    margin-top: 16px;
+    border-radius: 10px;
+}
+.rightBarProfileTrends{
+    width: 350px;
+    height: 900px;
+    background-color: brown;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+.footerContainer{
+    width: 350px;
+    height: 100px;
+    margin-top: 30px;
+}
+.footerTexts{
+    color: gray;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+.footerTexts:hover{
+    border-bottom: 1px solid gray;
+}
+.rightBarInput::placeholder{
+    color: gray;
+    padding-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 16px;
+}
+.searchRightBar{
+    color: gray;
+    position: absolute;
+    left: 1418px;
+    top: 15px;
+    font-size: 22px;
+}
+.inputDivRightBar{
+    height: 60px;
+    width: 350px;
+    background-color: black;
+    position: fixed;
+}
+.recomTexts{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-size: 25px;
+    font-weight: 600;
+}
+.recomHeader{
+    height: 50px;
+    padding-left: 17px;
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+.profileRecom{
+    width: 340px;
+    height: 210px;
+    display: flex;
+}
+.profilePicRecom{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+}
+.profileNameRecom{
+    height: 50px;
+    width:160px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.tag{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 13px;
+}
+.name{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 17px; 
+}
+.followButtonRecom{
+    height: 35px;
+    width: 85px;
+    border-radius: 20px;
+    border: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.oneAcc{
+    display: flex;
+    height: 60px;
+    width: 340px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.showMore{
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.showMoreText{
+    color: rgb(0, 132, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.oneAcc:hover{
+    background-color: rgba(206, 206, 206, 0.05);
+    transition: 0.5s ease;
+}
+.showMore:hover{
+     background-color: rgba(206, 206, 206, 0.05);
+    transition: 0.5s ease;
+}
+.footerSignupLoginContainer{
+    height: 80px;
+    width: 100%;
+    background-color:  rgb(0, 132, 255);;
+    position: absolute;
+    bottom: 0;
+}
+.footerBigText{
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerSmallText{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
