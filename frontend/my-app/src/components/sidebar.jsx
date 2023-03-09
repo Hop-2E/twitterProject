@@ -17,7 +17,7 @@ function Sidebar() {
       <div className="sidebarContainer">
         <div className="allCategoryContainer">
           <img src={twitterLogo} alt="" className="twitterLogoSidebar" />
-          <Link to="/">
+          <Link to="/" style={{ textDecoration: "none" }}>
             <div className="sidebarCategoryContainer">
               <div className="sidebarCategory">
                 <RiHomeHeartFill className="sidebarIcon" />
@@ -37,7 +37,7 @@ function Sidebar() {
               <span className="sideBarCategoryTexts">Notification</span>
             </div>
           </div>
-          <Link to="/messages">
+          <Link to="/messages" style={{ textDecoration: "none" }}>
             <div className="sidebarCategoryContainer">
               <div className="sidebarCategory">
                 <AiOutlineMail className="sidebarIcon" />
@@ -58,7 +58,7 @@ function Sidebar() {
               <span className="sideBarCategoryTexts">Lists</span>
             </div>
           </div>
-          <Link to="/profile">
+          <Link to="/profile" style={{ textDecoration: "none" }}>
             <div className="sidebarCategoryContainer">
               <div className="sidebarCategory">
                 <CgProfile className="sidebarIcon" />
