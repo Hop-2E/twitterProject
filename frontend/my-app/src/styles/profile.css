@@ -133,19 +133,23 @@
     align-items: center;
 }
 .tweetsCategory:hover{
-    background-color: rgb(43, 38, 38);
+    /* background-color: rgb(43, 38, 38); */
+    background-color: rgba(134, 133, 133, 0.19);
     transition: 0.5s ease;
 }
 .tweetsRepliesCategory:hover{
-    background-color: rgb(43, 38, 38);
+    /* background-color: rgb(43, 38, 38); */
+    background-color: rgba(134, 133, 133, 0.19);
     transition: 0.5s ease;
 }
 .mediaCategory:hover{
-    background-color: rgb(43, 38, 38);
+    /* background-color: rgb(43, 38, 38); */
+    background-color: rgba(134, 133, 133, 0.19);
     transition: 0.5s ease;
 }
 .LikesCategory:hover{
-    background-color: rgb(43, 38, 38);
+    /* background-color: rgb(43, 38, 38); */
+    background-color: rgba(134, 133, 133, 0.19);
     transition: 0.5s ease;
 }
 .rightBarInput{
@@ -290,11 +294,13 @@
     margin-left: 20px;
 }
 .oneAcc:hover{
-    background-color: rgba(206, 206, 206, 0.05);
+     /* background-color: rgba(206, 206, 206, 0.05); */
+    background-color: rgba(134, 133, 133, 0.19); 
     transition: 0.5s ease;
 }
 .showMore:hover{
-     background-color: rgba(206, 206, 206, 0.05);
+     /* background-color: rgba(206, 206, 206, 0.05); */
+    background-color: rgba(134, 133, 133, 0.19);
     transition: 0.5s ease;
 }
 .footerSignupLoginContainer{
