@@ -1,12 +1,200 @@
 *{
   margin : 0px;
   padding: 0px;
+
 }
 .homeContainer{
   display: flex;
+
   
   flex-direction: row;
   
 
   margin-top: 400px;
+
+  height: 100vh;
+  width: 100vw;
+}
+.mainContentHome{
+  width: 43%;
+  height: 100vh;
+  background-color: black;
+}
+.pageNameHomeContainer{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: 550;
+  margin-top: 13px;
+  margin-left: 11px;
+}
+.pageNameDiv{
+  width: 100%;
+  height: 40px;
+}
+.fypHome{
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+.fypHomeTexts{
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.fypHomeTextsDiv{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fypHomeTextsDiv:hover{
+  background-color: rgba(134, 133, 133, 0.19);
+    transition: 0.5s ease;
+}
+.homeContentHeader{
+  width: 100%;
+  height: 100px;
+  border-bottom: 0.2px solid gray;
+}
+.homeTweet{
+  height: 23%;
+  width: 100%;
+}
+.homeTweetHeader{
+  height: 70%;
+  width: 100%;
+  border-bottom: 0.5px solid gray;
+}
+.homeTweetHeaderHeader{
+  height: 55%;
+  width: 100%;
+  padding-top: 4px;
+  display: flex;
+}
+.homeTweetHeaderHeaderPic{
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 13px;
+  margin-top: 4px;
+}
+.homeTweetHeaderHeaderInput{
+  height: 70%;
+  width: 80%;
+  margin-left: 10px;
+  background-color: transparent;
+  border: transparent;
+  padding-top: 12px;
+}
+.homeTweetHeaderHeaderInput::placeholder{
+  color: gray;
+  font-size: 22px;
+}
+.homeTweetBottom{
+  height: 41%;
+  display: flex;
+}
+.iconHomeTweetBottom{
+  color: rgb(0, 123, 255);
+  font-size: 20px;
+}
+.homeTweetBottomIconsDiv{
+  height: 100%;
+  width: 36%;
+  margin-left: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.iconDiv{
+  width: 50px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconDiv:hover{
+  background-color: rgba(0, 165, 254, 0.191);
+  transition: 0.5s ease;
+}
+.homeTweetButtonDiv{
+  height:100%;
+  width: 20%;
+  margin-left: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeTweetButton{
+  border: transparent;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  height: 75%;
+  width: 70%;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.homeRightSiderBar{
+  background-color: black;
+  border-left:solid  0.5px gray;
+  width: 32%;
+}
+.rigthSideBarHomeInput{
+  width: 345px;
+  height: 51px;
+  border:transparent;
+  background-color: rgb(54, 54, 54);
+  border-radius: 40px;
+  margin-top: 3px;
+}
+.rigthSideBarHomeContainer{
+  background-color: black;
+  height: 100%;
+  margin-left: 40px;
+}
+.rigthSideBarHomeInput::placeholder{
+  color :gray;
+  padding-left: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  font-size: 16px;
+} 
+.iconInput{
+  position: absolute;
+  top: 16px;
+  right: 370px;
+  font-size: 22px;
+  color: gray;
+}
+.rightSideBarTrendContainer{
+  width: 350px;
+  height: 900px;
+  background-color: green;
+  margin-top: 16px;
+  border-radius: 10px;
+}
+.rightSideBarProfileRecom{
+  width: 350px;
+  height: 330px;
+  background-color: rgb(44, 43, 43);
+  margin-top: 16px;
+  border-radius: 10px;
+}
+.recomHeader{
+  height: 50px;
+  padding-left: 17px;
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+}
+.recomText{
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  font-size: 25px;
+  font-weight: 600;
 }

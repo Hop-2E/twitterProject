@@ -9,19 +9,22 @@ import { RxBookmark } from "react-icons/rx";
 import { MdListAlt } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { CgMore } from "react-icons/cg";
+import { Link } from "react-router-dom";
 
-function sidebar() {
+function Sidebar() {
   return (
     <>
       <div className="sidebarContainer">
         <div className="allCategoryContainer">
           <img src={twitterLogo} alt="" className="twitterLogoSidebar" />
-          <div className="sidebarCategoryContainer">
-            <div className="sidebarCategory">
-              <RiHomeHeartFill className="sidebarIcon" />
-              <span className="sideBarCategoryTexts">Home</span>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <div className="sidebarCategoryContainer">
+              <div className="sidebarCategory">
+                <RiHomeHeartFill className="sidebarIcon" />
+                <span className="sideBarCategoryTexts">Home</span>
+              </div>
             </div>
-          </div>
+          </Link>
           <div className="sidebarCategoryContainer">
             <div className="sidebarCategory">
               <BiHash className="sidebarIcon" />
@@ -34,12 +37,15 @@ function sidebar() {
               <span className="sideBarCategoryTexts">Notification</span>
             </div>
           </div>
-          <div className="sidebarCategoryContainer">
-            <div className="sidebarCategory">
-              <AiOutlineMail className="sidebarIcon" />
-              <span className="sideBarCategoryTexts">Messages</span>
+          <Link to="/messages" style={{ textDecoration: "none" }}>
+            <div className="sidebarCategoryContainer">
+              <div className="sidebarCategory">
+                <AiOutlineMail className="sidebarIcon" />
+                <span className="sideBarCategoryTexts">Messages</span>
+              </div>
             </div>
-          </div>
+          </Link>
+
           <div className="sidebarCategoryContainer">
             <div className="sidebarCategory">
               <RxBookmark className="sidebarIcon" />
@@ -52,12 +58,14 @@ function sidebar() {
               <span className="sideBarCategoryTexts">Lists</span>
             </div>
           </div>
-          <div className="sidebarCategoryContainer">
-            <div className="sidebarCategory">
-              <CgProfile className="sidebarIcon" />
-              <span className="sideBarCategoryTexts">Profile</span>
+          <Link to="/profile" style={{ textDecoration: "none" }}>
+            <div className="sidebarCategoryContainer">
+              <div className="sidebarCategory">
+                <CgProfile className="sidebarIcon" />
+                <span className="sideBarCategoryTexts">Profile</span>
+              </div>
             </div>
-          </div>
+          </Link>
           <div className="sidebarCategoryContainer">
             <div className="sidebarCategory">
               <CgMore className="sidebarIcon" />
@@ -79,4 +87,4 @@ function sidebar() {
   );
 }
 
-export default sidebar;
+export default Sidebar;

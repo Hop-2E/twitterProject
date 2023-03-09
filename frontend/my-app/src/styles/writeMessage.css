@@ -1,4 +1,6 @@
-*{
+
+
+    *{
     margin: 0px;
 }
 .writeMessageCategoryTexts{
@@ -34,11 +36,17 @@
     background-color: black;
     height: 100vh;
     width: 380px;
+
     border-right: 0.5px solid grey;
+
+
 }
 .messageHeader{
 display: flex;
 justify-content: space-between;
+
+
+
 
 margin: 15px;
 }
@@ -52,7 +60,11 @@ margin: 15px;
 .messageMain{
     display: flex;
     flex-direction: column;
+
     gap: 10px;
+
+
+
     margin: 25px;
     height: 388px;
     width: 320px;
