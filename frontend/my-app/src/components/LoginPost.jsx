@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/login.css";
 import { IoIosSearch } from "react-icons/io";
 import { RiSettings3Line } from "react-icons/ri";
+import { RiMoreFill } from "react-icons/ri";
 
 function LoginPost() {
   return (
@@ -38,7 +39,113 @@ function LoginPost() {
             Trends for you
           </span>
         </div>
-        <div className="loginPostMain"></div>
+        <div className="loginPostMain">
+          <div>
+            <div className="loginMainFirstText">
+              <span className="greyText"> Only on Twitter · Trending </span>
+              <div className="loginMainIconContainer">
+                <RiMoreFill className="greyText" />
+              </div>
+            </div>
+            <div
+              style={{
+                height: "20px",
+                width: "566px",
+              }}
+            >
+              <span className="whiteText">#ガルパ高校卒業式</span>
+            </div>
+            <div
+              style={{
+                height: "16px",
+                width: "566px",
+              }}
+            >
+              <span className="greyText">6969k Tweets</span>
+            </div>
+          </div>
+        </div>
+        <div className="loginPostMain">
+          <div>
+            <div className="loginMainFirstText">
+              <span className="greyText"> Only on Twitter · Trending </span>
+              <div className="loginMainIconContainer">
+                <RiMoreFill className="greyText" />
+              </div>
+            </div>
+            <div
+              style={{
+                height: "20px",
+                width: "566px",
+              }}
+            >
+              <span className="whiteText">#ガルパ高校卒業式</span>
+            </div>
+            <div
+              style={{
+                height: "16px",
+                width: "566px",
+              }}
+            >
+              <span className="greyText">6969k Tweets</span>
+            </div>
+          </div>
+        </div>
+        <div className="loginPostMain">
+          <div>
+            <div className="loginMainFirstText">
+              <span className="greyText"> Only on Twitter · Trending </span>
+              <div className="loginMainIconContainer">
+                <RiMoreFill className="greyText" />
+              </div>
+            </div>
+            <div
+              style={{
+                height: "20px",
+                width: "566px",
+              }}
+            >
+              <span className="whiteText">#ガルパ高校卒業式</span>
+            </div>
+            <div
+              style={{
+                height: "16px",
+                width: "566px",
+              }}
+            >
+              <span className="greyText">6969k Tweets</span>
+            </div>
+          </div>
+        </div>
+        <div className="loginPostMain">
+          <div>
+            <div className="loginMainFirstText">
+              <span className="greyText"> Only on Twitter · Trending </span>
+              <div className="loginMainIconContainer">
+                <RiMoreFill className="greyText" />
+              </div>
+            </div>
+            <div
+              style={{
+                height: "20px",
+                width: "566px",
+              }}
+            >
+              <span className="whiteText">#ガルパ高校卒業式</span>
+            </div>
+            <div
+              style={{
+                height: "16px",
+                width: "566px",
+              }}
+            >
+              <span className="greyText">6969k Tweets</span>
+            </div>
+          </div>
+        </div>
+        <div className="loginMiniFooter">
+          <span className="blueText">Show more</span>
+        </div>
       </div>
     </>
   );
