@@ -8,10 +8,17 @@
 
 .loginPageContainer{
    display: flex;
+   align-items: center;
+   justify-content: center;
    background-color: aqua;
    height: 100%;
    width: 100%;
 }
+
+
+
+
+
 .loginLeftSideBarContainer{
     display: flex;
     flex-direction: column;
@@ -62,7 +69,7 @@ background-color: grey;
 
 
 .loginPostContainer{
-    background-color: yellow;
+    background-color: black;
     height: 100%;
     width: 42%;
 }
@@ -70,7 +77,7 @@ background-color: grey;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: brown;
+    background-color: black;
     height: 60px;
 }
 .loginPostSearchContainer{
@@ -112,7 +119,7 @@ background-color: grey;
     transition: 1s ease;
 }
 .loginHeaderIcon:hover{
-    background-color: rgb(33, 35, 39);
+    background-color: rgb(29, 86, 200);
 }
 
 
@@ -123,6 +130,440 @@ background-color: grey;
     align-items: center;
     width: 590px;
     height: 48px;
-    background-color: green;
+    background-color: black;
     padding-left:15px ;
+}
+
+
+.loginPostMain{
+    display: flex;
+    flex-direction: column;
+    width: 573px;
+    height: 55px;
+    padding: 12px 16px;
+    background-color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    cursor: pointer;
+}
+.loginPostMain:hover{
+    background-color: rgb(14, 11, 10);
+}
+
+
+
+
+.greyText{
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.whiteText{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    font-weight: bolder;
+}
+.blueText{
+font-size: 16px;
+color: rgb(0, 140, 240);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.loginMainFirstText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+    height: 16px;
+}
+.loginMainIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+.loginMainIconContainer:hover{
+background-color: rgb(9, 13, 23);
+}
+
+.loginMiniFooter{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 573px;
+    height: 32px;
+    padding: 16px;
+    transition: 0.5s ease;
+}
+.loginMiniFooter:hover{
+    background-color: rgb(14, 11, 10);
+}
+
+
+
+
+.loginFooter{
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(74, 153, 233);
+    width: 100%;
+    height: 9.1%;
+    z-index: 1;
+}
+.footerMain{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    height: 48px;
+}
+.footerTextContainer{
+    height: 100%;
+    width: 33%;
+}
+.footerMain2Text{
+    width: 93%;
+}
+
+.loginFooterbtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 20%;
+    height: 100%;
+}
+.loginFooterFirstBtn{
+width: 76px;
+height: 36px;
+border-radius: 25px;
+background-color: rgb(74, 153, 233);
+border: 1px solid white;
+cursor: pointer;
+}
+.loginFooterSecondBtn{
+width: 76px;
+height: 36px;
+background-color: white;
+border-radius: 25px;
+border: none;
+cursor: pointer;
+}
+
+
+
+
+
+
+.rightSideBarGreytext{
+    color:grey;
+    font-size: 12px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.LoginRightSideBarContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: black;
+    height: 37%;
+    width: 24%;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.LoginRightSidebarHeader{
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    width: 91%;
+    height: 7%;
+    
+}
+.LoginRightSidebarSecondHeader{
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 6%;
+    padding: 0 12px;
+}
+.LoginRightSideBarMain{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    height: 50%;
+    padding: 16px 12px;
+
+}
+.LoginRightSideBarMainbtn{
+    height: 30%;
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.rightSidebarBtnContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.loginRightSidebarImg{
+    height: 25px;
+    width: 40px;
+    border-radius: 50%;
+}
+.rightSidebarText{
+    font-size: 14px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma , sans-serif;
+    
+}
+.loginRightSidebarFooter{
+    padding-left: 14px;
+    padding-bottom: 10px;
+    height: 15%;
+    width: 95%;
+    
+}
+
+
+
+
+
+
+.signupPopupContainer{
+    height: 82.5%;
+    width: 41%;
+    background-color: black;
+    border-radius: 15px;
+    z-index: 69;
+}
+.signupPopupHeader{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width:98%;
+    padding-left: 2%;
+    gap: 42%;
+}
+.signupPopupIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.signupPopupIcon:hover{
+    background-color: rgb(24, 23, 23);
+}
+
+.signupPopupMainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 60%;
+    width: 100%;
+}
+.signupPopupMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    height: 90%;
+    padding: 16px 12px;
+}
+.signupPopup{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height:25%;
+    gap: 10px  ;
+}
+.signupPopupMainbtn{
+    height: 66%;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.signupPopupBtnContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.signupPopupImg{
+    height: 25px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.signupPopupText{
+    font-size: 14px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma , sans-serif;
+    cursor: pointer;
+}
+.secondSignupPopup{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 15%;
+}
+.signupPopupMiniFooter{
+    width: 80%;
+    height: 15%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.loginPopupContainer{
+    height: 82.5%;
+    width: 41%;
+    background-color: black;
+    border-radius: 15px;
+    z-index: 69;
+}
+.loginPopupHeader{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width:98%;
+    padding-left: 2%;
+    gap: 42%;
+}
+.loginPopupIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.loginPopupIcon:hover{
+    background-color: rgb(24, 23, 23);
+}
+
+.loginPopupMainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 80%;
+    width: 100%;
+}
+.loginPopupMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    height: 100%;
+    padding: 16px 12px;
+
+}
+.loginPopup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height:20%;
+    gap: 8px  ;
+}
+.loginPopupMainbtn{
+    height: 76%;
+    width: 80%;    
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.loginPopupBtnContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.loginPopupImg{
+    height: 25px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.loginPopupText{
+    font-size: 14px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma , sans-serif;
+    cursor: pointer;
+}
+.secondLoginPopup{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 15%;
+}
+.loginPopupMainInput{
+    width: 80%;
+    height: 50%;
+}
+.loginPopupInput{
+    height: 60%;
+    width: 100%;
+}
+
+
+.loginPopupFooterBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 20%;
+}
+.loginPopupFooterBtn{
+    border:none;
+    border-radius: 25px;
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    cursor: pointer;
+}
+.loginPopup2FooterBtn{
+     border: 1px solid white;
+    border-radius: 25px;
+    width: 90%;
+    height: 80%;
+    cursor: pointer;
+    background-color: black;
 }

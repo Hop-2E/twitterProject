@@ -1,6 +1,21 @@
 import React from "react";
 import "../App.css";
 import SideBar from "../components/sidebar";
+
+// import Post from "../components/Post";
+// import WriteMessage from "../components/WriteMessage";
+
+// import NewMessage from "../components/NewMessage";
+
+// import Popup from "../components/Popup";
+import Header from "../components/Header";
+import Login from "../components/Login";
+// import FollowBox from "../components/FollowBox";
+
+// import Popup from "../components/Popup";
+// import FooterSignupLogin from "../components/footerSignupLogin";
+
+
 import { CiImageOn } from "react-icons/ci";
 import { HiOutlineGif } from "react-icons/hi2";
 import { BiPoll } from "react-icons/bi";
@@ -8,10 +23,12 @@ import { BsEmojiSmile } from "react-icons/bs";
 import { TbCalendarTime } from "react-icons/tb";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import RightSideBarHome from "../components/rigthSideBarHome";
+
 function home() {
   return (
     <>
       <div className="homeContainer">
+
         <SideBar />
         <div className="mainContentHome">
           <div className="homeContentHeader">
