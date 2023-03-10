@@ -156,6 +156,10 @@
   width: 100%;
 
 
+
+
+  overflow-y: scroll;
+
 }
 .rigthSideBarHomeInput::placeholder{
   color :gray;
@@ -171,10 +175,18 @@
   color: gray;
 }
 .rightSideBarTrendContainer{
+
   width: 75%;
   height: 100%; 
+
+  width: 400px;
+  height: 900px;
+  background-color: black;
   margin-top: 16px;
   border-radius: 10px;
+  display: flex;
+  background-color: green;
+
   display: flex;  
 }
 .rightSideBarProfileRecom{
@@ -335,6 +347,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .loginMiniFooter:hover{
   background-color: rgba(134, 133, 133, 0.19);
   transition: 0.5s ease;
+
 
 
 }

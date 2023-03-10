@@ -22,9 +22,15 @@ function RightSideBarHome() {
         {show && <></>}
         <FiSearch className="iconInput" />
         <div className="rightSideBarTrendContainer">
+
           {/* sdsd */}
           <div className="loginPostContainer1">
             <div className="loginSecondHeader1">
+
+          <div className="loginPostContainer">
+            <div className="loginPostHeader"></div>
+            <div className="loginSecondHeader">
+
               <span
                 style={{
                   color: "white",
@@ -36,6 +42,7 @@ function RightSideBarHome() {
                 Trends for you
               </span>
             </div>
+
             {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((cur) => (
               <div className="loginPostMain1">
                 <div>
@@ -70,6 +77,272 @@ function RightSideBarHome() {
           </div>
 
           {/* /sdsd */}
+
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginPostMain">
+              <div>
+                <div className="loginMainFirstText">
+                  <span className="greyText"> Only on Twitter · Trending </span>
+                  <div className="loginMainIconContainer">
+                    <RiMoreFill className="greyText" />
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="whiteText">#ガルパ高校卒業式</span>
+                </div>
+                <div
+                  style={{
+                    height: "16px",
+                    width: "566px",
+                  }}
+                >
+                  <span className="greyText">6969k Tweets</span>
+                </div>
+              </div>
+            </div>
+            <div className="loginMiniFooter">
+              <span className="blueText">Show more</span>
+            </div>
+          </div>
+
         </div>
         <div className="rightSideBarTrendContainer"></div>
         <div className="rightSideBarProfileRecom">
