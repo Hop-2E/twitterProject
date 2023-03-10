@@ -15,7 +15,7 @@ function App() {
         <Route path="/messages" element={<Messages />} />
         <Route path="/notification" element={<Notification />} />
         <Route path="/profile" element={<Profile />} />
-        </Routes>
+      </Routes>
     </BrowserRouter>
   );
 }

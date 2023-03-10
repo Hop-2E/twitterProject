@@ -10,7 +10,7 @@ import { MdListAlt } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { CgMore } from "react-icons/cg";
 import { Link } from "react-router-dom";
-
+import { BsThreeDots } from "react-icons/bs";
 function Sidebar() {
   return (
     <>
@@ -77,10 +77,12 @@ function Sidebar() {
           </button>
         </div>
         <div className="sidebarProfileContainer">
-          <CgProfile />
-          <span>Name</span>
-          <p>id000000000000</p>
-          <CgMore />
+          <div className="sidebarAccPic"></div>
+          <div className="nameUsernameDiv">
+            <p className="bigName">1abigcock</p>
+            <p className="smallName">@1aaaaaa</p>
+          </div>
+          <BsThreeDots className="threeDot" />
         </div>
       </div>
     </>
