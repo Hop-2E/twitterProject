@@ -159,8 +159,7 @@
   margin-left: 40px;
 
   width: 100%;
-
-
+  overflow-y: scroll;
 }
 .rigthSideBarHomeInput::placeholder{
   color :gray;
