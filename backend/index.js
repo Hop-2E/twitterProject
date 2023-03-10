@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.use("/posts", router);
+app.use("/posts/", router);
 app.use("/users/", usersRouter);
 
 const connect = () => {

@@ -10,8 +10,6 @@
   flex-direction: row;
   
 
-  margin-top: 400px;
-
   height: 100vh;
   width: 100vw;
 }
@@ -19,6 +17,7 @@
   width: 43%;
   height: 100vh;
   background-color: black;
+  overflow: scroll;
 }
 .pageNameHomeContainer{
   color: white;
@@ -88,7 +87,7 @@
   margin-left: 10px;
   background-color: transparent;
   border: transparent;
-  padding-top: 12px;
+  padding-top:5px;
 }
 .homeTweetHeaderHeaderInput::placeholder{
   color: gray;
@@ -284,7 +283,6 @@
   background-color:  rgb(33, 35, 39);
   transition: 0.5s ease;
   cursor: pointer;
-  cursor: pointer;
 }
 .loginPostMain:hover{
   background-color: rgb(14, 11, 10);
@@ -345,4 +343,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .loginMiniFooter:hover{
   background-color: rgba(134, 133, 133, 0.19);
   transition: 0.5s ease;
+}
+.content{
+  width: 100%;
+  height: 100%;
 }
