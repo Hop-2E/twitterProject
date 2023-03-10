@@ -183,15 +183,15 @@
   display: flex;
   width: 350px;
   height: 900px;
-  background-color: green;
+  background-color: black;
   margin-top: 16px;
   border-radius: 10px;
+  display: flex;
 }
 .rightSideBarProfileRecom{
   width: 350px;
   height: 330px;
   background-color: rgb(44, 43, 43);
-  margin-top: 80px;
   margin-top: 16px;
   border-radius: 10px;
 }
@@ -345,6 +345,4 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .loginMiniFooter:hover{
   background-color: rgba(134, 133, 133, 0.19);
   transition: 0.5s ease;
-
-
 }
