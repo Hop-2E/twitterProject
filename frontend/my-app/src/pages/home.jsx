@@ -37,12 +37,18 @@ const Home = () => {
     });
   }, []);
 
+
+
+function home() {
+
   return (
     <>
       <div className="homeContainer">
         <SideBar />
 
+
         {/* <WriteMessage /> */}
+
         {/* <Post /> */}
 
         <div className="mainContentHome">
