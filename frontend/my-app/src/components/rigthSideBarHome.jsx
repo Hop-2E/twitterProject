@@ -12,6 +12,26 @@ function RightSideBarHome() {
   return (
     <>
       <div className="rigthSideBarHomeContainer">
+
+        <div
+          style={{
+            backgroundColor: "black",
+            width: "100%",
+            height: "7%",
+            position: "fixed",
+          }}
+        >
+          <input
+            type="text"
+            name=""
+            id=""
+            className="rigthSideBarHomeInput"
+            placeholder="Search Twitter"
+            style={{ position: "fixed" }}
+          />
+        </div>
+
+
         <input
           type="text"
           name=""
@@ -20,6 +40,7 @@ function RightSideBarHome() {
           placeholder="Search Twitter"
         />
         {show && <></>}
+
         <FiSearch className="iconInput" />
         <div className="rightSideBarTrendContainer">
 

@@ -4,6 +4,7 @@ import Post from "../model/Post.js";
 export const getAllPosts = async (req, res) => {
   try {
     const post = await Post.find({});
+
     res.status(200).send({
       data: post,
     });
@@ -18,7 +19,7 @@ export const getAllPosts = async (req, res) => {
 export const createPost = async (req, res) => {
   try {
     // const shortlink = nanoid(4); //=> "V1StGXR8_Z5jdHi6B-myT"
-    const post = await Post.create({...req.body});
+    const post = await Post.create({ ...req.body });
     res.status(200).send({
       success: true,
       data: post,
