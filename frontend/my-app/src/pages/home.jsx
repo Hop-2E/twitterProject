@@ -1,6 +1,14 @@
 import React from "react";
 import "../App.css";
 import SideBar from "../components/sidebar";
+
+
+import Post from "../components/Post";
+import WriteMessage from "../components/WriteMessage";
+
+import Header from "../components/Header";
+import Login from "../components/Login";
+
 import { CiImageOn } from "react-icons/ci";
 import { HiOutlineGif } from "react-icons/hi2";
 import { BiPoll } from "react-icons/bi";
@@ -8,11 +16,20 @@ import { BsEmojiSmile } from "react-icons/bs";
 import { TbCalendarTime } from "react-icons/tb";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import RightSideBarHome from "../components/rigthSideBarHome";
+
+
+
 function home() {
   return (
     <>
       <div className="homeContainer">
         <SideBar />
+
+
+        <WriteMessage />
+        {/* <Post /> */}
+
+
         <div className="mainContentHome">
           <div className="homeContentHeader">
             <div className="pageNameDiv">
@@ -82,6 +99,7 @@ function home() {
         <div className="homeRightSiderBar">
           <RightSideBarHome />
         </div>
+
       </div>
     </>
   );

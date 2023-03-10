@@ -297,6 +297,7 @@ function rightSideBarHome() {
             </div>
           </div>
         </div>
+        <div className="rightSideBarTrendContainer"></div>
         <div className="rightSideBarProfileRecom">
           <div className="recomHeader">
             <p className="recomText">Who to follow</p>

@@ -44,10 +44,16 @@
 .sideBarCategoryTexts{
     color: white;
     font-weight: bold;
+
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     font-weight: 500;
+
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
 }
 .sidebarbtn{
     background-color: rgb(29, 155, 240);

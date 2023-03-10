@@ -5,6 +5,13 @@
 }
 .homeContainer{
   display: flex;
+
+  
+  flex-direction: row;
+  
+
+  margin-top: 400px;
+
   height: 100vh;
   width: 100vw;
 }
@@ -150,7 +157,10 @@
   background-color: black;
   height: 100%;
   margin-left: 40px;
+
   width: 100%;
+
+
 }
 .rigthSideBarHomeInput::placeholder{
   color :gray;
@@ -172,12 +182,18 @@
   margin-top: 16px;
   border-radius: 10px;
   display: flex;
+  width: 350px;
+  height: 900px;
+  background-color: green;
+  margin-top: 16px;
+  border-radius: 10px;
 }
 .rightSideBarProfileRecom{
   width: 350px;
   height: 330px;
   background-color: rgb(44, 43, 43);
   margin-top: 80px;
+  margin-top: 16px;
   border-radius: 10px;
 }
 .recomHeader{
@@ -330,4 +346,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .loginMiniFooter:hover{
   background-color: rgba(134, 133, 133, 0.19);
   transition: 0.5s ease;
+
+
 }
