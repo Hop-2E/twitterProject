@@ -9,7 +9,7 @@ function profile() {
   return (
     <>
       <div className="profileContainer">
-        {/* <Sidebar /> */}
+        <Sidebar />
         <div className="profileMenu">
           <div className="headerProfile">
             <div className="sectionProfile">

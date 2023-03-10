@@ -19,14 +19,13 @@ import RightSideBarHome from "../components/rigthSideBarHome";
 
 
 
+
+
 function home() {
   return (
     <>
       <div className="homeContainer">
         <SideBar />
-
-
-        <WriteMessage />
         {/* <Post /> */}
 
 
@@ -99,7 +98,6 @@ function home() {
         <div className="homeRightSiderBar">
           <RightSideBarHome />
         </div>
-
       </div>
     </>
   );
