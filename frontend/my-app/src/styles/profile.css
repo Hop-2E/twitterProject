@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     overflow: scroll;
+    background-color: black;
 }
 .profileMenu{
     width: 550px;
@@ -162,7 +163,7 @@
 }
 .rightBarContainer{
     margin-left: 35px;
-    background-color: black;
+    background-color: brown;
     height: 2500px;
 }
 .rightBarProfilePhotos{
