@@ -5,8 +5,28 @@ import twitterLogo from "../assets/twitterLogo.png";
 import GoogleLogo from "../assets/googleLogo.png";
 import AppleLogo from "../assets/Apple-Logo.png";
 import TextField from "@mui/material/TextField";
-
+import { useState } from "react";
+import axios from "axios";
 function LoginPopup() {
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
+  const Login = async () => {
+    try {
+      const res = await axios.post("http://localhost:8000/users/login", {
+        email: email,
+        password: password,
+      });
+      console.log(res, "this");
+      //   console.log(res.data.data._id);
+      window.localStorage.setItem("token", JSON.stringify(res.data.data.token));
+      window.localStorage.setItem("id", JSON.stringify(res.data.data_id));
+      window.location.replace("/home");
+      console.log(res.data, "ahahha");
+      // localStorage.setItem("token");
+    } catch (error) {
+      alert(error.response.data.error);
+    }
+  };
   return (
     <>
       <div className="loginPopupContainer">
@@ -50,16 +70,23 @@ function LoginPopup() {
                 id="filled-basic"
                 label="Phone, email, or username"
                 variant="filled"
+                onChange={(e) => setEmail(e.target.value)}
+                style={{ color: "white", border: "0.5px solid gray" }}
               />
               <TextField
                 className="loginPopupInput"
                 id="filled-basic"
                 label="Password"
                 variant="filled"
+                onChange={(e) => setPassword(e.target.value)}
+                style={{
+                  color: "white",
+                  border: "0.5px solid gray",
+                }}
               />
             </div>
             <div className="loginPopupFooterBtnContainer ">
-              <button className="loginPopupFooterBtn">
+              <button className="loginPopupFooterBtn" onClick={() => Login()}>
                 <span
                   style={{
                     color: "black",

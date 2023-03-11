@@ -27,7 +27,7 @@ function LoginPost() {
             />
           </div>
         </div>
-        <div className="loginSecondHeader">
+        <div className="loginSecondHeader" style={{ backgroundColor: "black" }}>
           <span
             style={{
               color: "white",
@@ -39,7 +39,7 @@ function LoginPost() {
             Trends for you
           </span>
         </div>
-        <div className="loginPostMain">
+        <div className="loginPostMain" style={{ backgroundColor: "black" }}>
           <div>
             <div className="loginMainFirstText">
               <span className="greyText"> Only on Twitter · Trending </span>
@@ -65,7 +65,7 @@ function LoginPost() {
             </div>
           </div>
         </div>
-        <div className="loginPostMain">
+        <div className="loginPostMain" style={{ backgroundColor: "black" }}>
           <div>
             <div className="loginMainFirstText">
               <span className="greyText"> Only on Twitter · Trending </span>
@@ -91,7 +91,7 @@ function LoginPost() {
             </div>
           </div>
         </div>
-        <div className="loginPostMain">
+        <div className="loginPostMain" style={{ backgroundColor: "black" }}>
           <div>
             <div className="loginMainFirstText">
               <span className="greyText"> Only on Twitter · Trending </span>
@@ -117,7 +117,7 @@ function LoginPost() {
             </div>
           </div>
         </div>
-        <div className="loginPostMain">
+        <div className="loginPostMain" style={{ backgroundColor: "black" }}>
           <div>
             <div className="loginMainFirstText">
               <span className="greyText"> Only on Twitter · Trending </span>
@@ -143,7 +143,7 @@ function LoginPost() {
             </div>
           </div>
         </div>
-        <div className="loginMiniFooter">
+        <div className="loginMiniFooter" style={{ backgroundColor: "black" }}>
           <span className="blueText">Show more</span>
         </div>
       </div>

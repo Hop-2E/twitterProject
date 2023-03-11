@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/login.css";
-function loginFooter() {
+function loginFooter({ visible, setVisible, ovisible, setOVisible }) {
   return (
     <>
       <div className="loginFooter">
@@ -32,7 +32,10 @@ function loginFooter() {
             </div>
           </div>
           <div className="loginFooterbtnContainer">
-            <button className="loginFooterFirstBtn">
+            <button
+              className="loginFooterFirstBtn"
+              onClick={() => setVisible(!visible)}
+            >
               <span
                 style={{
                   color: "white",
@@ -43,7 +46,10 @@ function loginFooter() {
                 Log in
               </span>
             </button>
-            <button className="loginFooterSecondBtn">
+            <button
+              className="loginFooterSecondBtn"
+              onClick={() => setOVisible(!ovisible)}
+            >
               <span
                 style={{
                   color: "black",

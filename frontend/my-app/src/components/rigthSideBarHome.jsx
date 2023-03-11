@@ -1,18 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import RightBarFooter from "../components/rightBarFooter";
 import { FiSearch } from "react-icons/fi";
 import { IoIosSearch } from "react-icons/io";
 import { RiSettings3Line } from "react-icons/ri";
 import { RiMoreFill } from "react-icons/ri";
 import "../App.css";
-
-function RightSideBarHome() {
-  const [show, setShow] = useState(false);
-
+function rightSideBarHome() {
   return (
     <>
       <div className="rigthSideBarHomeContainer">
-
         <div
           style={{
             backgroundColor: "black",
@@ -31,27 +27,11 @@ function RightSideBarHome() {
           />
         </div>
 
-
-        <input
-          type="text"
-          name=""
-          id=""
-          className="rigthSideBarHomeInput"
-          placeholder="Search Twitter"
-        />
-        {show && <></>}
-
         <FiSearch className="iconInput" />
         <div className="rightSideBarTrendContainer">
-
-          {/* sdsd */}
-          <div className="loginPostContainer1">
-            <div className="loginSecondHeader1">
-
           <div className="loginPostContainer">
             <div className="loginPostHeader"></div>
             <div className="loginSecondHeader">
-
               <span
                 style={{
                   color: "white",
@@ -63,42 +43,6 @@ function RightSideBarHome() {
                 Trends for you
               </span>
             </div>
-
-            {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((cur) => (
-              <div className="loginPostMain1">
-                <div>
-                  <div className="loginMainFirst1Text">
-                    <span className="greyText">
-                      {" "}
-                      Only on Twitter · Trending{" "}
-                    </span>
-                    <div className="loginMainIconContainer">
-                      <RiMoreFill className="greyText" />
-                    </div>
-                  </div>
-                  <div
-                    style={{
-                      height: "20px",
-                      width: "90%",
-                    }}
-                  >
-                    <span className="whiteText">#ガルパ高校卒業式</span>
-                  </div>
-                  <div
-                    style={{
-                      height: "16px",
-                      width: "90%",
-                    }}
-                  >
-                    <span className="greyText">6969k Tweets</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* /sdsd */}
-
             <div className="loginPostMain">
               <div>
                 <div className="loginMainFirstText">
@@ -363,7 +307,6 @@ function RightSideBarHome() {
               <span className="blueText">Show more</span>
             </div>
           </div>
-
         </div>
         <div className="rightSideBarTrendContainer"></div>
         <div className="rightSideBarProfileRecom">
@@ -407,4 +350,4 @@ function RightSideBarHome() {
   );
 }
 
-export default RightSideBarHome;
+export default rightSideBarHome;

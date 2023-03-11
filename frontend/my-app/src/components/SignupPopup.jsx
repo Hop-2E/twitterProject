@@ -4,8 +4,25 @@ import { IoMdClose } from "react-icons/io";
 import twitterLogo from "../assets/twitterLogo.png";
 import GoogleLogo from "../assets/googleLogo.png";
 import AppleLogo from "../assets/Apple-Logo.png";
-
+import TextField from "@mui/material/TextField";
+import axios from "axios";
+import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function SignupPopup() {
+  const [password, setPassword] = useState();
+  const [email, setEmail] = useState();
+  const SignUp = async () => {
+    try {
+      await axios.post("http://localhost:8000/users/signup", {
+        password: password,
+        email: email,
+      });
+      toast.success("Amjilttai burtguullee");
+    } catch (error) {
+      toast.error(error.message);
+    }
+  };
   return (
     <>
       <div className="signupPopupContainer">
@@ -49,8 +66,25 @@ function SignupPopup() {
             >
               or
             </div>
+            <div className="loginPopupMainInput">
+              <TextField
+                className="loginPopupInput"
+                id="filled-basic"
+                label="Phone, email, or username"
+                variant="filled"
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <TextField
+                className="loginPopupInput"
+                id="filled-basic"
+                label="Password"
+                variant="filled"
+                onChange={(e) => setPassword(e.target.value)}
+                style={{ color: "white" }}
+              />
+            </div>
             <div className="secondSignupPopup">
-              <button className="signupPopupMainbtn">
+              <button className="signupPopupMainbtn" onClick={() => SignUp()}>
                 <span className="signupPopupText">Create account</span>
               </button>
             </div>
@@ -68,6 +102,7 @@ function SignupPopup() {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }

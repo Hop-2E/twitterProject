@@ -6,17 +6,32 @@ import LoginFooter from "./LoginFooter";
 import LoginRightSidebar from "./LoginRightSidebar";
 import SignupPopup from "./SignupPopup";
 import LoginPopup from "./LoginPopup";
+import { useState } from "react";
 
 function Login() {
+  const [visible, setVisible] = useState(false);
+  const [ovisible, setOVisible] = useState(false);
   return (
     <div className="loginPageContainer">
-      {" "}
-      {/* <LoginLeftSidebar />
+      <LoginLeftSidebar />
       <LoginPost />
-      <LoginRightSidebar /> */}
-      <LoginFooter />
-      {/* <SignupPopup /> */}
-      <LoginPopup />
+      <LoginRightSidebar />
+      <LoginFooter
+        visible={visible}
+        setVisible={setVisible}
+        ovisible={ovisible}
+        setOVisible={setOVisible}
+        style={{ zIndex: "100" }}
+      />
+      <div className="loginDiv" style={{ display: visible ? "block" : "none" }}>
+        <LoginPopup />
+      </div>
+      <div
+        className="loginDiv"
+        style={{ display: ovisible ? "block" : "none" }}
+      >
+        <SignupPopup />
+      </div>
     </div>
   );
 }

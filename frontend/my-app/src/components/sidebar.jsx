@@ -17,7 +17,7 @@ function Sidebar() {
       <div className="sidebarContainer">
         <div className="allCategoryContainer">
           <img src={twitterLogo} alt="" className="twitterLogoSidebar" />
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/home" style={{ textDecoration: "none" }}>
             <div className="sidebarCategoryContainer">
               <div className="sidebarCategory">
                 <RiHomeHeartFill className="sidebarIcon" />

@@ -3,11 +3,11 @@ import mongoose from "mongoose";
 const PostSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: [true],
+    // required: [true],
   },
   username: {
     type: String,
-    required: [true],
+    // required: [true],
   },
   description: {
     type: String,
@@ -15,16 +15,16 @@ const PostSchema = new mongoose.Schema({
   },
   time: {
     type: String,
-    required: [true],
+    // required: [true],
   },
   user_id: {
     type: String,
-    required: [true],
+    // required: [true],
     ref: "User",
   },
   image: {
     type: String,
-    required: [true],
+    // required: [true],
   },
 });
 

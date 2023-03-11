@@ -27,7 +27,12 @@ import { sendRequest } from "../utils/axios-req";
 //     console.error(err);
 //   }
 // };
-
+// const CreatePost = async () => {
+//   const [url, urlSet] = useState();
+//   await axios.post("http://localhost:8000/posts", {
+//     description: url,
+//   });
+// };
 const Home = () => {
   const [data, setData] = useState();
   useEffect(() => {
@@ -36,19 +41,12 @@ const Home = () => {
       setData(data);
     });
   }, []);
-
-
-
-function home() {
-
   return (
     <>
       <div className="homeContainer">
         <SideBar />
 
-
         {/* <WriteMessage /> */}
-
         {/* <Post /> */}
 
         <div className="mainContentHome">
@@ -82,6 +80,7 @@ function home() {
                     color: "white",
                     fontSize: "30px",
                   }}
+                  // onChange={(e) => urlSet(e.target.value)}
                 />
               </div>
               <div className="homeTweetBottom">
@@ -118,7 +117,12 @@ function home() {
                   </div>
                 </div>
                 <div className="homeTweetButtonDiv">
-                  <button className="homeTweetButton">Tweet</button>
+                  <button
+                    className="homeTweetButton"
+                    // onClick={() => CreatePost()}
+                  >
+                    Tweet
+                  </button>
                 </div>
               </div>
             </div>

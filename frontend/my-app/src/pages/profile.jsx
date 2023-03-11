@@ -8,7 +8,7 @@ import RightSiderBarProfile from "../components/rightSideBarProfile";
 function profile() {
   return (
     <>
-      <div className="profileContainer">
+      <div className="profileContainer" style={{ backgroundColor: "black" }}>
         <Sidebar />
         <div className="profileMenu">
           <div className="headerProfile">
