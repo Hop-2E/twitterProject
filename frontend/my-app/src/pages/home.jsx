@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "../App.css";
 import SideBar from "../components/sidebar";
-
+import HomeTweet from "../components/homeTweet";
 import Post from "../components/Post";
 import WriteMessage from "../components/WriteMessage";
 
@@ -41,14 +41,14 @@ const Home = () => {
       setData(data);
     });
   }, []);
+  const [visible, setVisible] = useState(false);
   return (
     <>
       <div className="homeContainer">
-        <SideBar />
-
+        <HomeTweet visible={visible} />
+        <SideBar setVisible={setVisible} visible={visible} />
         {/* <WriteMessage /> */}
         {/* <Post /> */}
-
         <div className="mainContentHome">
           <div>
             <div className="homeContentHeader">
@@ -134,7 +134,6 @@ const Home = () => {
               })}
           </div>
         </div>
-
         <div className="homeRightSiderBar">
           <RightSideBarHome />
         </div>

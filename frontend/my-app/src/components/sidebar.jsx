@@ -11,7 +11,7 @@ import { CgProfile } from "react-icons/cg";
 import { CgMore } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import { BsThreeDots } from "react-icons/bs";
-function Sidebar() {
+function Sidebar({ setVisible, visible }) {
   return (
     <>
       <div className="sidebarContainer">
@@ -72,7 +72,11 @@ function Sidebar() {
               <span className="sideBarCategoryTexts">More</span>
             </div>
           </div>
-          <button className="sidebarbtn">
+          <button
+            className="sidebarbtn"
+            onClick={() => setVisible(!visible)}
+            style={{ zIndex: "1002" }}
+          >
             <span className="sideBarCategoryTexts"> Tweet</span>
           </button>
         </div>

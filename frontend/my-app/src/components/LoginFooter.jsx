@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/login.css";
 function loginFooter({ visible, setVisible, ovisible, setOVisible }) {
+  console.log(visible, "aj");
   return (
     <>
       <div className="loginFooter">
