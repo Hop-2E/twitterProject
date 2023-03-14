@@ -38,3 +38,33 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
+/* .containerHomeTweet{
+    background-color: black;
+    width: 620px;
+    height: 300px;
+    position: absolute;
+    right: 430px;
+    top: 50px;
+    z-index: 1001;
+    border-radius: 20px;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.173);
+    position: absolute;
+    z-index: 1000;
+}
+.input{
+    background-color: rgba(128, 128, 128, 0.484);
+    border: 1px solid transparent;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.texts{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10px;
+}  */
