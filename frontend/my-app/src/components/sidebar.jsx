@@ -12,6 +12,10 @@ import { CgMore } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import { BsThreeDots } from "react-icons/bs";
 function Sidebar({ setVisible, visible }) {
+  var x = localStorage.getItem("id");
+  console.log(x, "lel");
+  var v = localStorage.getItem("email");
+  console.log(x, "lel");
   return (
     <>
       <div className="sidebarContainer">
@@ -83,8 +87,8 @@ function Sidebar({ setVisible, visible }) {
         <div className="sidebarProfileContainer">
           <div className="sidebarAccPic"></div>
           <div className="nameUsernameDiv">
-            <p className="bigName">1abigcock</p>
-            <p className="smallName">@1aaaaaa</p>
+            <p className="bigName">{x}</p>
+            <p className="smallName">@{v}</p>
           </div>
           <BsThreeDots className="threeDot" />
         </div>

@@ -396,7 +396,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     gap: 10px  ;
 }
 .signupPopupMainbtn{
-    height: 66%;
+    height: 100%;
     width: 100%;
     border-radius: 25px;
     border: none;

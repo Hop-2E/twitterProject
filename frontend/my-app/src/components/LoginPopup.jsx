@@ -16,12 +16,14 @@ function LoginPopup() {
         email: email,
         password: password,
       });
-      console.log(res, "this");
+      // console.log(res, "this");
       //   console.log(res.data.data._id);
-      window.localStorage.setItem("token", JSON.stringify(res.data.data.token));
-      window.localStorage.setItem("id", JSON.stringify(res.data.data_id));
+      // window.localStorage.setItem("token", JSON.stringify(res.data.data.token));
+      window.localStorage.setItem("id", JSON.stringify(res.data.data.name));
+      window.localStorage.setItem("email", JSON.stringify(res.data.data.email));
+      // console.log(res, "ahah");
       window.location.replace("/home");
-      console.log(res.data, "ahahha");
+      console.log(res.data.data.name, "ahahha");
       // localStorage.setItem("token");
     } catch (error) {
       alert(error.response.data.error);

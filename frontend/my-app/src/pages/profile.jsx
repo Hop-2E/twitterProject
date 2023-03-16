@@ -6,6 +6,10 @@ import Profile from "../assets/profile.png";
 import { BiCalendar } from "react-icons/bi";
 import RightSiderBarProfile from "../components/rightSideBarProfile";
 function profile() {
+  var x = localStorage.getItem("id");
+  console.log(x, "lel");
+  var v = localStorage.getItem("email");
+  console.log(x, "lel");
   return (
     <>
       <div className="profileContainer" style={{ backgroundColor: "black" }}>
@@ -15,7 +19,7 @@ function profile() {
             <div className="sectionProfile">
               <BsArrowLeftShort className="icon" />
               <div className="headerSection">
-                <span className="sectionName">Bayraaaaa</span>
+                <span className="sectionName">{x}</span>
                 <br />
                 <span className="sectionTweetNumber">4 tweets</span>
               </div>
@@ -35,13 +39,13 @@ function profile() {
                 className="sectionName"
                 style={{ marginTop: "15px", marginLeft: "20px" }}
               >
-                bayraaaaa
+                {x}
               </p>
               <p
                 className="sectionTweetNumber"
                 style={{ marginLeft: "20px", marginTop: "3px" }}
               >
-                @batbayar0913
+                @{v}
               </p>
               <p
                 className="sectionName"
